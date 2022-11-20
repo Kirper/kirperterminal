@@ -1,7 +1,7 @@
 
 body {
   font-size: 30px;
-  background: rgba(30,30,30,1);
+  background: black;
   font-family: 'Ubuntu Mono', monospace;
   color: #ffffff;
 }
@@ -35,7 +35,7 @@ p1 {
 #rectangle1 {
   margin: 0;
   height:90px;
-  background:rgba(30,30,30,1);
+  background:black;
   position: fixed;
   border-radius: 10px;
   top: 4.5%;
