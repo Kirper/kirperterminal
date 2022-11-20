@@ -17,10 +17,16 @@ prpl {
   outline: none;
 }
 a {
-  color: #ffffff
+  color: #ffffff;
+  outline: none;
 }
 ul {
   margin-left: 80px;
+}
+pre{
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 10px;
 }
 rainbow {
   background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
@@ -29,7 +35,8 @@ rainbow {
   -webkit-text-fill-color: transparent;
   -webkit-animation: rainbow 5s ease infinite;
   animation: rainbow 5s ease infinite;
-  line-height: 25px;
+  letter-spacing: 0px;
+  line-height: 1px;
 }
 
 @-webkit-keyframes rainbow {
