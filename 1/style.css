@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   color: #ffffff;
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 30px;
 }
 
@@ -50,7 +50,7 @@ rainbow {
   --border-color: black;
   --shadow-color: rgb(112, 20, 20);
 
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Ubuntu Mono', monospace;
   position: relative;
   font-size: 20px;
   width: 120px;
