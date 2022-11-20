@@ -1,0 +1,83 @@
+
+body {
+  font-size: 30px;
+  background: rgba(30,30,30,1);
+  font-family: 'Syne Mono', monospace;
+  color: #ffffff;
+}
+
+p1 {
+  font-size: 40px;
+  color: #ffffff;
+  position: fixed;
+  top: 45px;
+  margin: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#rectangle {
+  margin: 0;
+  height:80px;
+  background: #2A0080;
+  position: fixed;
+  border-radius: 10px;
+  top: 45px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  min-width: 350px;
+  width: 25%;
+}
+
+
+#rectangle1 {
+  margin: 0;
+  height:90px;
+  background:rgba(30,30,30,1);
+  position: fixed;
+  border-radius: 10px;
+  top: 4.5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+}
+
+#output {
+    list-style: none;
+    padding: 0rem 1.4rem;
+    position: fixed;
+    bottom: 2rem;
+
+}
+#prompt {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.7rem;
+    top: 4rem;
+}
+
+#prompt input {
+    width: 120%;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0rem 1.4rem;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+    position: fixed;
+    bottom: 0.8rem;
+}
+
+#prompt::before {
+    content: '> ';
+    position: fixed;
+    bottom: 1rem;
+}
