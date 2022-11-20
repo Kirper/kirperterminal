@@ -59,7 +59,7 @@ function processInput(input) {
     } else if (input == "1.0") {
         window.location.href="./1/rezume.html";
       return;
-    }else if (input == "porno") {
+    }else if (input == "free" || "porno") {
         print(input)
         print("отправте 2 что бы остановить");
         music = true
