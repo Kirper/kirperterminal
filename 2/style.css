@@ -1,7 +1,21 @@
+
+
+html,
+body {
+  height: 100%;
+}
+
+html{
+  min-width: 940px;
+}
+
 body{
   background: #bcaef4;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
+  padding-right: 8px;
+  overflow-x: hidden;
+
 }
 
 dol{
@@ -19,16 +33,22 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+p1{
+  margin-top: 10px;
+  position: relative;
+  weight: 110%;
+  padding: 20px;
+  bottom: -200px;
+}
 div.panel {
   position: absolute;
   background: #ffffff;
   border-radius: 15px;
-  height: 120px;
-  min-width: 240px;
-  width: calc(100vw - 16px);
+  height: 110px;
+  min-width: 930px;
+  width: calc(100vw - 32px);
   z-index: 1;
-  align-items: flex-start;
+  align-items: baseline;
 
 }
 
@@ -52,34 +72,33 @@ div.box{
 }
 
 header {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  position: absolute;
-  top: 51px;
-  left: 800px;
+  flex-wrap: nowrap;
+  margin-top: 7px;
+
   z-index: 2;
 }
 
 
 
 .banner li{
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin-left: 10px;
   background-color: #dedede;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   border: 5px solid #dedede;
 }
 
-.banner highlight li{
-  display: inline-block;
-  background-color: #bcaef4;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border: 5px solid #bcaef4;
+.banner ul{
+  display: inline-flex;
 }
 
 .banner li:hover{
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: nowrap;
   background-color: #bcaef4;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -97,6 +116,7 @@ header {
 }
 
 .cart{
+  display: inline-flex;
   position: relative;
   bottom: -6px;
   width: 30px;
@@ -139,5 +159,7 @@ div.tov {
 .logo {
   width: 35px;
   height: auto;
+  position: relative;
+  top: 5px;
   z-index: 2;
 }
