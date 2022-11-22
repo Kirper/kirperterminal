@@ -74,9 +74,15 @@ div.box{
 header {
   display: inline-flex;
   justify-content: center;
+<<<<<<< HEAD
   flex-wrap: nowrap;
   margin-top: 7px;
 
+=======
+  position: absolute;
+  top: 51px;
+  left: 60vw;
+>>>>>>> 38884ed888f119f210cec3f4fccab756554b0fca
   z-index: 2;
 }
 
