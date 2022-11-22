@@ -1,62 +1,137 @@
 body{
   background: #bcaef4;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
 }
 
-hr {
-  position: absolute;
-  z-index: 2;
-  top: 38px;
-  left: 15px;
-  width: 180px;
-  color: black;
+dol{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  margin-top: 0px;
+  font-size: 30px;
 }
 
 p {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#panel {
+div.panel {
   position: absolute;
   background: #ffffff;
   border-radius: 15px;
-  width: 200px;
-  min-height: 500px;
-  height: 97.5%;
+  height: 120px;
+  min-width: 240px;
+  width: calc(100vw - 16px);
   z-index: 1;
-  align-content: center;
+  align-items: flex-start;
 
 }
 
 table {
   position: relative;
   top: 5px;
-  font-size: 23px;
+  font-size: 30px;
 }
 
 .tovar {
   height: 330px;
   width: auto;
   display:block;
+  border-radius: 10px;
   margin:auto;
+  margin-top: 10px;
 }
 
-.box {
-  box-sizing: content-box;
-  display: block;
+div.box{
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 51px;
+  left: 800px;
+  z-index: 2;
+}
+
+
+
+.banner li{
+  display: inline-block;
+  background-color: #dedede;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 5px solid #dedede;
+}
+
+.banner highlight li{
+  display: inline-block;
+  background-color: #bcaef4;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 5px solid #bcaef4;
+}
+
+.banner li:hover{
+  display: inline-block;
+  background-color: #bcaef4;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 5px solid #bcaef4;
+}
+
+.banner a{
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  color: black;
+  background-position: bottom;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.cart{
+  position: relative;
+  bottom: -6px;
+  width: 30px;
+  height: auto;
+
+}
+
+.allbox{
+  display: flex;
+  align: center;
+  /* background-color: blue; */
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 240px;
+
+}
+
+
+div.tov {
+  display: flex;
+  margin-right: 7px;
+  margin-left: 7px;
+  margin-bottom: 14px;
+  position: relative;
+  flex-flow: column wrap;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   height: auto;
-  margin-left: 220px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: auto;
-  align-content: center;
-  padding: 5px;
-  overflow: auto;
+  width: 240px;
+
+  padding: 20px;
   font-size: 20px;
 
 }
