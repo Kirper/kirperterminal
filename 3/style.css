@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Fairfax";
-    src: url("/fonts/Fairfax.ttf");
+    src: url("./fonts/Fairfax.ttf");
   }
 @font-face {
     font-family: "Fairfax bold";
-    src: url("/fonts/FairfaxBold.ttf");
+    src: url("./fonts/FairfaxBold.ttf");
   }
 @font-face {
     font-family: "Fairfax italic";
-    src: url("/fonts/FairfaxItalic.ttf");
+    src: url("./fonts/FairfaxItalic.ttf");
   }
 @font-face {
     font-family: "Fairfax serif";
-    src: url("/fonts/FairfaxSerif.ttf");
+    src: url("./fonts/FairfaxSerif.ttf");
   }
 
 body {
