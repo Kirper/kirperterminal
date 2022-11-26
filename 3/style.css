@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Fairfax";
+    src: url("/fonts/Fairfax.ttf");
+  }
+@font-face {
+    font-family: "Fairfax bold";
+    src: url("/fonts/FairfaxBold.ttf");
+  }
+@font-face {
+    font-family: "Fairfax italic";
+    src: url("/fonts/FairfaxItalic.ttf");
+  }
+@font-face {
+    font-family: "Fairfax serif";
+    src: url("/fonts/FairfaxSerif.ttf");
+  }
+
+body {
+    font-size: 27px;
+    background-color: #29213b;
+    font-family: "Fairfax";
+    color:#99aeb4;
+    text-align: center;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Fairfax bold";
+    color:#fff9b6;
+}
+
+ul{
+    display: table-cell;
+    font-size: 50px;
+    height: 100%;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    
+}
+li{
+    margin-top: 5px;
+    font-family: "Fairfax bold";
+    
+    
+}
+.namegame{
+    font-size: 37px;
+    margin: 0;
+    padding: 0%;
+}
+
+but{
+    cursor: pointer;
+    color: #99aeb4;
+    transition: 0.5s;
+}
+but:hover{
+    color: #fff9b6;
+}
+
+#menu {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+#game {
+    display: none;
+    text-align: center;
+}
+#about {
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}    
+
+#death{
+    display: none;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+.healthpoints{
+    color: #d05757;
+    font-size: 60px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    line-height: 1px;
+}
+.waterpoints{
+    color: #4789b2;
+    font-size: 60px;
+    position: absolute;
+    top: 125px;
+    left: 10px;
+}
+.coordinats{
+    position: absolute;
+    font-size: 50px;
+    top: 180px;
+    left: 10px;
+    color: #9f57af;
+}
+
+ul.out {
+    display: block;
+}
+
+li.out {
+    display: list-item;
+    color:#ffffff;
+    position: relative;
+    bottom: 1rem;
+    font-size: 34px;
+    font-family: "Fairfax";
+    margin-bottom: -10px;
+}
+
+#output {
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 0rem 0.01rem;
+    position: absolute;
+    bottom: 35px;
+    left: 1px;
+    font-family: "Fairfax";
+}
+
+#prompt {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 4rem;
+}
+
+#prompt input {
+    width: 120%;
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0rem 1.4rem;
+    color: #ffffff;
+    font-size: 34px;
+    font-family: "Fairfax";
+    position: fixed;
+    bottom: 1rem;
+}
+
+#prompt::before {
+    content: '> ';
+    position: fixed;
+    bottom: 1rem;
+}

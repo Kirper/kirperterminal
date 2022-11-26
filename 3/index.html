@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <title>MonWolk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon.png">
+    </head>
+
+    <body>
+        <div class = "display">
+            <div class="namegame"><h1> MonWalk ♿</h1></div>
+            
+            <!-- меню -->
+            <div id = "menu">
+                <ul>
+                    <li><h2>MENU</h2></li> 
+                    <li><but onclick="start()">play</but></li>
+                    <li><but onclick="abot()">about</but></li>                  
+                </ul>
+            </div>
+            <div id = "about" onclick="pause()">
+                <ul>
+                    <li>Игру делали:</li> 
+                    <li>kirper</li>
+                    <li>fufblrik</li>                  
+                </ul>
+            </div>
+            <!-- игра -->
+            
+            <div id = 'death' onclick="pause()">
+                <h1>вы погибли ☠</h1>
+                нажмите чтобы возродится
+            </div>
+
+        </div>
+        <div id = "game">
+            <div class="displaystat">
+                <ul>
+                    <li><div class = 'healthpoints'></div></li>
+                    <li><div class = 'waterpoints'></div></li>
+                    <li><div class = 'coordinats'></div></li>
+                </ul>    
+            </div>
+            <ul class = 'out' id="output"></ul>
+
+            <form id="prompt">
+                <input onfocus="focusing()" onblur="bluring()" maxlength="25">
+            <div id="rectangle1" ></div>
+        </form>
+        </div>
+        <script src="code.js"></script>
+    </body>
+
+</html>
